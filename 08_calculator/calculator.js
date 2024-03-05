@@ -11,10 +11,10 @@ const sum = function(arr) {
 };
 
 const multiply = function(arr) {
-  return arr.reduce((total, current) => total * current, 0);
+  return arr.reduce((total, current) => total * current);
 };
 
-const power = function() {
+const power = function(a, b) {
 	return Math.pow(a, b);
 };
 
